@@ -18,3 +18,4 @@ node {
       stage ('Code coverage') {
        jacoco()
    }
+}
