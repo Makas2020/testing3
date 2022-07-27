@@ -3,7 +3,7 @@ node {
 
     def mvnHome = tool 'Maven3'
     stage ("checkout") {
-      git branch: 'main', url: 'https://github.com/Makas2020/testing3.git'
+      git branch: 'master', url: 'https://github.com/Makas2020/testing3.git'
     }
     
     stage ('build') {
