@@ -15,6 +15,10 @@ node {
         }
    }
     
+     stage ('Code coverage') {
+       jacoco()
+   }
+    
     
     stage ('DEV Deploy')
     {
