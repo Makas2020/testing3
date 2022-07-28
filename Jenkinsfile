@@ -15,9 +15,7 @@ node {
         }
    }
     
-      stage ('Code coverage') {
-       jacoco()
-   }
+    
     stage ('DEV Deploy')
     {
         echo "deploying to DEV tomcat "
